@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:4000/api";
+const BASE_URL = "https://truestate-project-backend.onrender.com/api";
 
 export async function fetchSales({ search, filters, sort, page, limit }) {
   const params = new URLSearchParams();
